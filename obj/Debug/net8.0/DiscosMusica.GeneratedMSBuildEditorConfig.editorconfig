@@ -9,31 +9,31 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DiscosMusica
 build_property.RootNamespace = DiscosMusica
-build_property.ProjectDir = z:\DiscosMusica\
+build_property.ProjectDir = Z:\DiscosMusica\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\DiscosMusica
+build_property.MSBuildProjectDirectory = Z:\DiscosMusica
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/DiscosMusica/Views/Home/Index.cshtml]
+[Z:/DiscosMusica/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/DiscosMusica/Views/Shared/_Layout.cshtml]
+[Z:/DiscosMusica/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/DiscosMusica/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/DiscosMusica/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/DiscosMusica/Views/_ViewImports.cshtml]
+[Z:/DiscosMusica/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/DiscosMusica/Views/_ViewStart.cshtml]
+[Z:/DiscosMusica/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

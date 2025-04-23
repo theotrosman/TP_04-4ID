@@ -1,8 +1,23 @@
 ﻿@{
-    ViewData["Title"] = "Index";
+
+    var discos = ViewBag.biblioteca as Dictionary<int, Disco>;
 }
 
-<div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
-</div>
+<header>
+<img src= "/img/626631.png" alt="Logo" class="styled-image">
+</header>
+<body>
+<main>
+@foreach (var disco in discos.Values)
+{
+
+        <h1>@disco.Datos.Nombre </h1>
+        <h2>@disco.Datos.Descripción</h2>
+        <a asp-action="MostrarDatosAlbum" asp-route-nombre="@disco.Datos.Nombre">Ver Intereses</a>
+        
+
+}
+
+</main>
+</body>
+ 
