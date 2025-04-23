@@ -15,6 +15,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        Dictionary<int, Disco> discos = Biblioteca.InicializarGrupo();
+        ViewBag.integrantes = discos;
         return View();
     }
 }
