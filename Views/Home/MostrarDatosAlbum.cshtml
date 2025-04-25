@@ -1,0 +1,28 @@
+@{
+    var disco = ViewBag.Disco as Disco;
+    var canciones = ViewBag.Canciones as List<string>;
+}
+
+<header class="headerMostrar">
+<img src="@disco.Datos.Foto" alt="Logo" class="ImagenBanner">
+<h1> @disco.Datos.Nombre</h1>
+    <h2 class="Descripcion">》@disco.Datos.Descripción</h2 >
+    <p >De "@disco.Datos.Banda"</p class="Banda">
+    <p>Producido por "@disco.Datos.Productor"</p>
+    <p>Oyentes mensuales: @disco.Datos.OyentesMensuales</p>
+</header>
+
+<main>
+
+
+    <h3>Canciones</h3>
+    <ul>
+        @foreach (var cancion in canciones)
+        {
+            <div class="Cancion">
+            <li>𝄞 @cancion</li>
+            </div>
+        }
+    </ul>
+</main>
+ 

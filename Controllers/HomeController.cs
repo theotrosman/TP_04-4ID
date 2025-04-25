@@ -21,4 +21,18 @@ public class HomeController : Controller
         ViewBag.biblioteca = biblioteca;
         return View();
     }
+    public IActionResult MostrarDatosAlbum(string nombre)
+{
+    Dictionary<int, Disco> biblioteca = Biblioteca.InicializarBiblioteca(); 
+    Disco discoSeleccionado = biblioteca.Values.FirstOrDefault(d => d.Datos.Nombre == nombre);
+
+    if (discoSeleccionado != null)
+    {
+        ViewBag.Disco = discoSeleccionado;
+        ViewBag.Canciones = discoSeleccionado.Canciones;
+    }
+
+    return View();
+}
+
 }

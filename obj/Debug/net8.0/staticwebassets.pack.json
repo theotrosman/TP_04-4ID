@@ -9,6 +9,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\azul.jpg",
+      "PackagePath": "staticwebassets\\img\\azul.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\eada.jpg",
+      "PackagePath": "staticwebassets\\img\\eada.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\oktubre.jpg",
+      "PackagePath": "staticwebassets\\img\\oktubre.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\peperina.jpg",
+      "PackagePath": "staticwebassets\\img\\peperina.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\signos.jpg",
+      "PackagePath": "staticwebassets\\img\\signos.jpg"
+    },
+    {
       "Id": "Z:\\DiscosMusica\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

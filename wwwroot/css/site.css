@@ -1,6 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 14px;
   min-height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -9,15 +21,71 @@ html {
   }
 }
 
-body {
-  margin: 10px;
-  padding: 10px;
-}
-
-
 footer {
   margin-top: 10px;
-  padding: 10px;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
+}
+
+.ImagenBanner {
+  width: 15%;
+  height: auto;
+  float: left;
+  border-radius: 20px;
+  margin-right: 2%;
+  border: 1px solid rgb(255, 255, 255);
+}
+main
+{
+  background-color: rgb(34, 31, 31);
+
+}
+header h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.headerMostrar {
+  background-color: rgb(29, 27, 27);
+  padding: 20px;
+  border: 0.7px dashed rgb(255, 255, 255);
+  height: 320px;
+}
+.Descripcion
+{
+  color: white;
+  opacity: 85%;
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+.Cancion
+{
+  width: 100%;
+  margin-bottom: 0%;
+  background-color: rgb(29, 27, 27);
+  opacity: 90%;
+  height: 122.5px;
+  border: 0.7px dashed rgb(255, 255, 255);
+}
+.Cancion li
+{
+  color: white;
+  font-size: 40px;
+}
+h3
+{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+header p
+{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0.5%;
+  opacity: 70%;
 }
