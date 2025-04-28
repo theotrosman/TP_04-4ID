@@ -3,17 +3,20 @@
     var discos = ViewBag.biblioteca as Dictionary<int, Disco>;
 }
 
-<header>
-<img src= "/img/626631.png" alt="Logo" class="styled-image">
+<header class="IndexHeader">
+<img src="/img/descarga.png" alt="Logo" class="ImagenLogo">
+<h5>catmage</h5>
 </header>
 <body>
 <main>
 @foreach (var disco in discos.Values)
 {
+<div class="DivIndex">
+<img src="@disco.Datos.Foto" alt="Logo" class="ImagenBanner">
 
-        <h1>@disco.Datos.Nombre </h1>
-        <h2>@disco.Datos.Descripción</h2>
-        <a asp-action="MostrarDatosAlbum" asp-route-nombre="@disco.Datos.Nombre">Ver Intereses</a>
+        <h1 class>@disco.Datos.Nombre </h1>
+        <div class="Boton"> <a asp-action="MostrarDatosAlbum" asp-route-nombre="@disco.Datos.Nombre">Ver Álbum</a></div>
+        </div>
 }
 
 </main>
