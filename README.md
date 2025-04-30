@@ -22,6 +22,7 @@ Se deberá aplicar el patrón MVC utilizando ASP.NET.
 Cada estudiante deberá identificar y crear los Modelos, Controladores y Vistas necesarios para cumplir con los requerimientos anteriores. 
 El catálogo debe almacenarse temporalmente en memoria (no usar base de datos para este trabajo práctico). 
 Crear el ejercicio utilizando datos reales de al menos 10 discos con sus temas correspondientes.
+
 Criterios de evaluación:
 Correcta identificación y separación de responsabilidades (Model, View, Controller). 
 Validaciones adecuadas (por ejemplo, no permitir títulos duplicados).
