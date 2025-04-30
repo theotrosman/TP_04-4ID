@@ -71,8 +71,28 @@ header h1 {
 }
 .Cancion li
 {
+  margin-top: 0.3%;
   color: white;
   font-size: 40px;
+  margin-left: 4%;
+  list-style: none;
+}
+.ImagenExplicit
+{
+  width: 3.5%;
+  height: auto;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  float: left;
+  margin-left: 1%;
+}
+h7
+{
+  margin-top: 0.9%;
+  float: left;
+  margin-left: 0.7%;
+  color: white;
+  font-size: 25px;
 }
 h3
 {
@@ -133,6 +153,7 @@ body {
 
 .Boton {
   margin-top: 10px;
+  
 }
 
 .Boton a {
@@ -162,4 +183,14 @@ body {
   color: white;
   text-transform: bold;
   opacity: 100%;
+}
+Footer
+{
+  background-color: rgb(29, 27, 27);
+  margin-top: -1%;
+padding-top: 0.5%;
+}
+footer pre
+{
+  text-align: center;
 }
