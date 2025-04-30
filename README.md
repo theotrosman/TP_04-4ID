@@ -14,6 +14,7 @@ El sistema debe permitir almacenar un catálogo de discos. Que cada disco esté 
 Además, la empresa desea que la interfaz sea amigable y clara, con un diseño visual atractivo que represente su identidad.
 
 Requisitos funcionales:
+
 El sitio debe mostrar una lista de discos precargados en el catálogo en su página principal. 
 No se debe permitir el registro de dos discos con el mismo título. 
 El usuario debe tener la posibilidad de hacer click en el disco y ver toda su información. 
@@ -24,6 +25,7 @@ El catálogo debe almacenarse temporalmente en memoria (no usar base de datos pa
 Crear el ejercicio utilizando datos reales de al menos 10 discos con sus temas correspondientes.
 
 Criterios de evaluación:
+
 Correcta identificación y separación de responsabilidades (Model, View, Controller). 
 Validaciones adecuadas (por ejemplo, no permitir títulos duplicados).
 Claridad del código y reutilización (evitar código duplicado).
