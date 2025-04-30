@@ -5,7 +5,7 @@
 
 <header class="IndexHeader">
 <img src="/img/descarga.png" alt="Logo" class="ImagenLogo">
-<h5>catmage</h5>
+<h5>catwitify</h5>
 </header>
 <body>
 <main>
@@ -14,8 +14,8 @@
 <div class="DivIndex">
 <img src="@disco.Datos.Foto" alt="Logo" class="ImagenBanner">
 
-        <h1 class>@disco.Datos.Nombre </h1>
-        <div class="Boton"> <a asp-action="MostrarDatosAlbum" asp-route-nombre="@disco.Datos.Nombre">Ver Álbum</a></div>
+        <h1>@disco.Datos.Nombre  <a target="_blank" href="@disco.Datos.LinkArtista"> </h1>
+        <div class="Boton"> Ver Artista<a asp-action="MostrarDatosAlbum" asp-route-nombre="@disco.Datos.Nombre">Ver Álbum</a></div>
         </div>
 }
 
