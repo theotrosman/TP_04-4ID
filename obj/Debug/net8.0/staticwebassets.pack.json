@@ -9,12 +9,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\808.png",
+      "PackagePath": "staticwebassets\\img\\808.png"
+    },
+    {
       "Id": "Z:\\DiscosMusica\\wwwroot\\img\\azul.jpg",
       "PackagePath": "staticwebassets\\img\\azul.jpg"
     },
     {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\descarga.png",
+      "PackagePath": "staticwebassets\\img\\descarga.png"
+    },
+    {
       "Id": "Z:\\DiscosMusica\\wwwroot\\img\\eada.jpg",
       "PackagePath": "staticwebassets\\img\\eada.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\graduation.jpg",
+      "PackagePath": "staticwebassets\\img\\graduation.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\jesusisking.png",
+      "PackagePath": "staticwebassets\\img\\jesusisking.png"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\lateregistration.jpg",
+      "PackagePath": "staticwebassets\\img\\lateregistration.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\mbdtf.jpg",
+      "PackagePath": "staticwebassets\\img\\mbdtf.jpg"
     },
     {
       "Id": "Z:\\DiscosMusica\\wwwroot\\img\\oktubre.jpg",
@@ -27,6 +51,18 @@
     {
       "Id": "Z:\\DiscosMusica\\wwwroot\\img\\signos.jpg",
       "PackagePath": "staticwebassets\\img\\signos.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\thecollegedropout.jpg",
+      "PackagePath": "staticwebassets\\img\\thecollegedropout.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\tlop.jpg",
+      "PackagePath": "staticwebassets\\img\\tlop.jpg"
+    },
+    {
+      "Id": "Z:\\DiscosMusica\\wwwroot\\img\\yeezus.png",
+      "PackagePath": "staticwebassets\\img\\yeezus.png"
     },
     {
       "Id": "Z:\\DiscosMusica\\wwwroot\\js\\site.js",
