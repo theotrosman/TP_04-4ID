@@ -9,8 +9,11 @@ public class DatoDisco
     public string Banda { get; private set; }
     public string Link { get; private set; }
 
+    public string LinkArtista { get; private set; }
 
-    public DatoDisco(string Nombre, string Descripción, string Foto, int OyentesMensuales, List<string> Canciones, string Productor, string Banda, string Link)
+
+
+    public DatoDisco(string Nombre, string Descripción, string Foto, int OyentesMensuales, List<string> Canciones, string Productor, string Banda, string Link, string LinkArtista)
     {
         this.Nombre = Nombre;
         this.Descripción = Descripción;
@@ -20,5 +23,7 @@ public class DatoDisco
         this.Productor = Productor;
         this.Banda = Banda;
         this.Link = Link;
+        this.LinkArtista = LinkArtista;
+
     }
 }

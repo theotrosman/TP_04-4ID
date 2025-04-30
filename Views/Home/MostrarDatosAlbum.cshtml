@@ -6,9 +6,9 @@
 <header class="headerMostrar">
 <img src="/img/descarga.png" alt="Logo" class="ImagenLogo">
 <img src="@disco.Datos.Foto" alt="Logo" class="ImagenBanner">
- <a href="@disco.Datos.Link"><h1> @disco.Datos.Nombre </h1></a>
+ <a target="_blank" href="@disco.Datos.Link"><h1> @disco.Datos.Nombre </h1></a>
     <h2 class="Descripcion">》@disco.Datos.Descripción</h2 >
-    <p >De "@disco.Datos.Banda"</p class="Banda">
+    <p>De <a target="_blank" href="@disco.Datos.LinkArtista"> <span class="Banda">@disco.Datos.Banda</span > </a></p>
     <p>Producido por "@disco.Datos.Productor"</p>
     <p>Oyentes mensuales: @disco.Datos.OyentesMensuales</p>
 </header>
