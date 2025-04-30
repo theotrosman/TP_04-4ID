@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Kse1BrwleFdUu5MPxfSW8U5GisayrkQQ1EPqd7JSdLs=",
+  "Hash": "3UMmddOMGwsfivgY8B/b0URl5ht/LXk3dkK9bvbu3b0=",
   "Source": "DiscosMusica",
   "BasePath": "_content/DiscosMusica",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\eada.jpg"
+    },
+    {
+      "Identity": "Z:\\DiscosMusica\\wwwroot\\img\\explicit.png",
+      "SourceId": "DiscosMusica",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\DiscosMusica\\wwwroot\\",
+      "BasePath": "_content/DiscosMusica",
+      "RelativePath": "img/explicit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\explicit.png"
     },
     {
       "Identity": "Z:\\DiscosMusica\\wwwroot\\img\\graduation.jpg",
