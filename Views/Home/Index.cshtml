@@ -9,6 +9,17 @@
 </header>
 <body>
 <main>
+<div class="div2"></div>
+  <nav>
+    <ul>
+      <li><a asp-action="Perfil" asp-route-nombre=""><h2>Perfil</h2></a></li>
+      <li><a asp-action="Premium" asp-route-nombre=""><h2>Premium</h2></a></li>
+      <li><a href="https://music.youtube.com/charts"><h2>Favoritos</h2></a></li>
+      <li><a href="https://music.youtube.com/search?q="><h2>Buscar</h2></a></li>
+      <li><a href="http://google.com"><h2>Estadísticas</h2></a></li>
+    </ul>
+  </nav>
+</div>
 @foreach (var disco in discos.Values)
 {
 <div class="DivIndex">
