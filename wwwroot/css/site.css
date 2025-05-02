@@ -223,3 +223,44 @@ footer pre
   color: white;
 
 }
+.Perfil
+{
+  display: inline-block;
+  width: 100%;
+}
+.Perfil img{
+height: 400px;
+width: 100%; 
+opacity: 80%; 
+margin-bottom: 1%;
+border: 5px solid white;
+}
+.MainPerfil img
+{
+  border-radius: 50%;
+  transform: translate(-50%, -50%); 
+  margin-left: 50%;
+  width: 30%;
+  height: auto;
+}
+.MainPerfil h1
+{
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 15%;
+  margin-top:-14%;
+  margin-bottom: 4%;
+}
+.MainPerfil div {
+  background-color: rgb(158, 82, 111);
+  height: 300px; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin-top: -15.5%;
+}
+
+.MainPerfil h2 {
+  font-size: 70px;
+  margin: 0; 
+}
