@@ -194,3 +194,32 @@ footer pre
 {
   text-align: center;
 }
+.div2 {
+  display: inline-block;
+  width: 97.5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  margin-right: 2%;
+}
+
+.div2 ul li {
+  float: left;
+  list-style: none;
+  margin-left: 11%;
+  border: 5px solid #FF5C8D;
+  padding: 0.5%;
+  border-radius: 15px;
+  background-color: #FF5C8D;
+
+}
+
+
+.div2 ul li a {
+
+  text-decoration: none;
+  color: white;
+
+}
