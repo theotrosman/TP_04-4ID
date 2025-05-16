@@ -1,34 +1,89 @@
-Materia: Taller de Programación 2. Escuela ORT sede Almagro        
+# 🎵 TP03 - Catálogo de Discos Musicales  
+**Materia:** Taller de Programación 2  
+**Escuela:** ORT sede Almagro  
+**Año:** 4to Informática  
+**Estudiante:** Theo Trosman  
 
+---
 
-Año: 4to Informática
+## 💿 Descripción del Proyecto
 
-TP03 - Catálogo de Discos Musicales
-Enunciado General:
-La empresa MusicStore quiere lanzar su sitio web para la venta y promoción de álbumes musicales. Para esto, ha solicitado el desarrollo de una plataforma que permita a los usuarios:
+Este trabajo práctico consiste en el desarrollo de una aplicación web que simula el sitio oficial de una tienda musical, **MusicStore**, donde los usuarios pueden explorar un **catálogo de discos musicales**, conocer detalles de cada álbum y disfrutar de una experiencia visual alineada con la identidad del sitio.
 
-Ver un catálogo de discos musicales.
-Consultar la información de cada álbum registrado.
-El sistema debe permitir almacenar un catálogo de discos. Que cada disco esté asociado a un artista, un productor, un género musical, una lista de Temas,  además de un id que los identifique y una foto.
+El proyecto fue desarrollado con **ASP.NET Core** siguiendo el patrón **MVC (Model-View-Controller)** y utilizando almacenamiento en memoria (sin base de datos).
 
-Además, la empresa desea que la interfaz sea amigable y clara, con un diseño visual atractivo que represente su identidad.
+---
 
-Requisitos funcionales:
+## 🧩 Funcionalidades implementadas
 
-El sitio debe mostrar una lista de discos precargados en el catálogo en su página principal. 
-No se debe permitir el registro de dos discos con el mismo título. 
-El usuario debe tener la posibilidad de hacer click en el disco y ver toda su información. 
-Requisitos técnicos:
-Se deberá aplicar el patrón MVC utilizando ASP.NET. 
-Cada estudiante deberá identificar y crear los Modelos, Controladores y Vistas necesarios para cumplir con los requerimientos anteriores. 
-El catálogo debe almacenarse temporalmente en memoria (no usar base de datos para este trabajo práctico). 
-Crear el ejercicio utilizando datos reales de al menos 10 discos con sus temas correspondientes.
+- ✅ Página principal con listado de discos musicales precargados.
+- ✅ Visualización de la información completa de un disco al hacer clic.
+- ✅ Cada disco incluye:
+  - Título
+  - Artista
+  - Productor
+  - Género musical
+  - Imagen del álbum
+  - Lista de temas
+- ❌ No se permite registrar discos con títulos duplicados (validación aplicada).
 
-Criterios de evaluación:
+---
 
-Correcta identificación y separación de responsabilidades (Model, View, Controller). 
-Validaciones adecuadas (por ejemplo, no permitir títulos duplicados).
-Claridad del código y reutilización (evitar código duplicado).
-Estética y presentación visual del sitio.
-Creatividad en la elección del contenido (artistas, géneros, etc.).
-Funcionamiento correcto de la navegación entre vistas.
+## 📦 Estructura del Proyecto (MVC)
+
+- `Models/Disco.cs`: modelo principal con propiedades del álbum.
+- `Models/Artista.cs`, `Productor.cs`, `Genero.cs`, `Tema.cs`: modelos relacionados.
+- `Controllers/MusicStoreController.cs`: gestiona la lógica entre vistas y datos.
+- `Views/MusicStore/Index.cshtml`: muestra el catálogo general.
+- `Views/MusicStore/Detalle.cshtml`: muestra la información detallada de un álbum.
+
+---
+
+## 🧠 Detalles técnicos
+
+- 🧱 Framework: **ASP.NET Core MVC**
+- 🧠 Programación orientada a objetos
+- 💾 Almacenamiento en memoria con una **clase estática**
+- 🧹 Validaciones aplicadas en los controladores
+- 💡 Separación clara de responsabilidades
+- 📸 Imágenes de álbumes reales incluidas
+
+---
+
+## 🎨 Interfaz y diseño visual
+
+Se priorizó una **interfaz clara, moderna y responsive**, que permita al usuario navegar cómodamente el catálogo, identificar artistas y acceder rápidamente a los detalles de cada disco.  
+Cada vista fue trabajada respetando una misma identidad visual: fondo, tipografía, botones y layout.
+
+---
+
+## 🎧 Contenido del catálogo
+
+El catálogo incluye 10 discos reales seleccionados por su variedad de género y estética
+Cada uno con su respectiva lista de temas.
+
+---
+
+## ✅ Criterios de Evaluación cumplidos
+
+- [x] Separación correcta de modelos, controladores y vistas
+- [x] Validaciones funcionales (títulos únicos)
+- [x] Código limpio, reutilizable y organizado
+- [x] Estética y presentación visual clara y coherente
+- [x] Navegación fluida entre vistas
+- [x] Creatividad en la elección del contenido musical
+
+---
+
+## 📌 Notas finales
+
+> El objetivo de este trabajo no fue solo desarrollar un catálogo estático, sino aprender a estructurar una aplicación completa que respete buenas prácticas de desarrollo web, MVC y diseño visual.
+
+---
+
+## 👨‍💻 Autor
+
+**Theo Trosman**  
+Estudiante de Informática - Escuela ORT Almagro  
+_"Una buena interfaz no solo muestra discos, también los hace sonar en la cabeza del usuario."_
+
